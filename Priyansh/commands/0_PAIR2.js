@@ -5,7 +5,7 @@ module.exports.config = {
   credits: "KRISHNA",
   description: "THIS BOT IS MR KRISHNA",
   commandCategory: "COUPLE LOVE PAIRING", 
-  usages: "pair", 
+  usages: "pair2", 
   cooldowns: 15
 };
 module.exports.run = async function({ api, event,Threads, Users }) {
