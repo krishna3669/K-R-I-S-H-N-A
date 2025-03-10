@@ -1,9 +1,9 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "SHAAN",
+  name: "KRISHNA",
     version: "2.1.1",
   hasPermssion: 0,
-  credits: "𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍", 
+  credits: "KRISHNA BABU", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
@@ -13,9 +13,9 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("krishna") ||
-     react.includes("Krishna") || react.includes("KRISHNA") || react.includes("KrIsHnA") ||
-react.includes("ravi") ||
+  if(react.includes("owner") ||
+     react.includes("Owner") || react.includes("OWNER") || react.includes("Boss") ||
+react.includes("BOSS") ||
 react.includes("Ravi") ||     
 react.includes("RAVI")) {
     var msg = {
