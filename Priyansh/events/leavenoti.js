@@ -33,14 +33,14 @@ module.exports.run = async function({ api, event, Users, Threads }) {
   const hours = moment.tz("Asia/Karachi").format("HH");
 	const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
 	const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
-	const type = (event.author == event.logMessageData.leftParticipantFbId) ? "leave" : "managed";
+	const type = (event.author == event.logMessageData.leftParticipantFbId) ? "𝐊𝐇𝐔𝐃 𝐇𝐈 𝐁𝐇𝐀𝐆 𝐆𝐀𝐘𝐀 😐👈" : "𝐀𝐃𝐌𝐈𝐍 𝐍𝐄 𝐆𝐔𝐒𝐒𝐄 𝐌𝐄 𝐍𝐈𝐊𝐀𝐋 𝐃𝐈𝐘𝐀 😐👈";
 	const path = join(__dirname, "events", "123.mp4");
 	const pathGif = join(path, `${threadID}123.mp4`);
 	var msg, formPush
 
 	if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-(typeof data.customLeave == "undefined") ? msg = "💐𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐇𝐀𝐀𝐍 𝐁𝐎𝐓 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍💐😇👈\n──────────────\n\n {name} \n\n──────────────\n𝐊𝐎 𝐁𝐇𝐆𝐀 𝐃𝐈𝐘𝐀🌝 \n──────────────────\n {type} \n──────────────\n𝐎𝐰𝐧𝐞𝐫 ➻  ──── 💐 𝐒𝐇𝐀𝐀𝐍 💐\n──────────────\n {name} \n──────────────\n 💐💐𝐊𝐈𝐓𝐍𝐀 𝐂𝐔𝐓𝐄 𝐓𝐇𝐀 𝐍𝐀 𝐘𝐄𝐇💐💐😥 ✨✨ 𝐆𝐑𝐎𝐔𝐏 𝐒𝐄 𝐂𝐇𝐀𝐋𝐀 𝐆𝐀𝐘𝐀 ♥ 𝐀𝐁 𝐌𝐄𝐑𝐀 𝐈𝐒𝐊𝐄 𝐁𝐈𝐍𝐀 𝐊𝐀𝐈𝐒𝐄 𝐌𝐀𝐍 𝐋𝐀𝐆𝐄𝐆𝐀🤔🤔\n──────────────\n\n[❤️‍🔥] 🖤🖤😥😥...Good {session} || {time}" : msg = data.customLeave;
+(typeof data.customLeave == "undefined") ? msg = "🍒🌸🌹 𝗢𝗪𝗡𝗘𝗥 ÷ 𝕂ℝ𝕀𝕊ℍℕ𝔸 𝔹𝔸𝔹𝕌 😘🌸🍒\n✧═════════•❁❀❁•═════════✧\n😍☞ 𝗞𝗥𝗜𝗦𝗛𝗡𝗔 𝗕𝗢𝗧 ☜😍\n✧═════════•❁❀❁•═════════✧\n☞︎[ 🅱🅰🆈 🅱🅰🆈 ]☜︎\n✧═════════•❁❀❁•═════════✧\n☞︎ 𝗡𝗔𝗠𝗘 ÷  {name} ☜︎ \n✧═════════•❁❀❁•═════════✧\n☞︎𝗥𝗘𝗔𝗦𝗢𝗡 ÷ {type} ☜︎\n✧═════════•❁❀❁•═════════✧\n☞︎ 𝗧𝗜𝗠𝗘 ÷ {time} ☜︎\n✧═════════•❁❀❁•═════════✧\n☞︎ {session} ☜︎\n✧═════════•❁❀❁•═════════✧\n🌸🐬🐧🪽" : msg = data.customLeave;
 	msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type).replace(/\{session}/g, hours <= 10 ? "𝙈𝙤𝙧𝙣𝙞𝙣𝙜" : 
     hours > 10 && hours <= 12 ? "𝘼𝙛𝙩𝙚𝙧𝙉𝙤𝙤𝙣" :
     hours > 12 && hours <= 18 ? "𝙀𝙫𝙚𝙣𝙞𝙣𝙜" : "𝙉𝙞𝙜𝙝𝙩").replace(/\{time}/g, time);  
