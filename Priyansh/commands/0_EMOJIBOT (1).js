@@ -983,6 +983,31 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage(`${name} मैं हूं ना बाबू बोलो🥰👈`, threadID, messageID);
    };
 
+    if ((event.body.indexOf("call") >= 0 )) {
+     return api.sendMessage(`${name} 🌸𝐁𝐞𝐛𝐲 𝐌𝐞 𝐓𝐨 𝐁𝐨𝐭 𝐇𝐮 𝐊𝐞𝐬𝐞 𝐀𝐚𝐮 𝐂𝐚𝐥𝐥 𝐏𝐚𝐫 🥺🥺🥺`, threadID, messageID);
+   };
+
+    if ((event.body.indexOf("Call") >= 0 )) {
+     return api.sendMessage(`${name} 🌸𝐁𝐞𝐛𝐲 𝐌𝐞 𝐓𝐨 𝐁𝐨𝐭 𝐇𝐮 𝐊𝐞𝐬𝐞 𝐀𝐚𝐮 𝐂𝐚𝐥𝐥 𝐏𝐚𝐫 🥺🥺🥺`, threadID, messageID);
+   };
+
+    if ((event.body.indexOf("CALL") >= 0 )) {
+     return api.sendMessage(`${name} 🌸𝐁𝐞𝐛𝐲 𝐌𝐞 𝐓𝐨 𝐁𝐨𝐭 𝐇𝐮 𝐊𝐞𝐬𝐞 𝐀𝐚𝐮 𝐂𝐚𝐥𝐥 𝐏𝐚𝐫 🥺🥺🥺`, threadID, messageID);
+   };
+
+    if ((event.body.indexOf("Ludo") >= 0 )) {
+     return api.sendMessage(`${name} 🌸𝐁𝐚𝐛𝐮 𝐌𝐮𝐣𝐡𝐞 𝐊𝐡𝐞𝐥𝐧𝐚 𝐍𝐡𝐢 𝐀𝐚𝐭𝐚 𝐋𝐮𝐝𝐨 𝐁𝐚𝐬 𝐀𝐚𝐩𝐬𝐞 𝐏𝐲𝐚𝐫 𝐊𝐚𝐫𝐧𝐚 𝐀𝐚𝐭𝐚 𝐇𝐚𝐢 😘😘🤣`, threadID, messageID);
+   };
+
+    if ((event.body.indexOf("LUDO") >= 0 )) {
+     return api.sendMessage(`${name} 🌸𝐁𝐚𝐛𝐮 𝐌𝐮𝐣𝐡𝐞 𝐊𝐡𝐞𝐥𝐧𝐚 𝐍𝐡𝐢 𝐀𝐚𝐭𝐚 𝐋𝐮𝐝𝐨 𝐁𝐚𝐬 𝐀𝐚𝐩𝐬𝐞 𝐏𝐲𝐚𝐫 𝐊𝐚𝐫𝐧𝐚 𝐀𝐚𝐭𝐚 𝐇𝐚𝐢 😘😘🤣`, threadID, messageID);
+   };
+
+    if ((event.body.indexOf("ludo") >= 0 )) {
+     return api.sendMessage(`${name} 🌸𝐁𝐚𝐛𝐮 𝐌𝐮𝐣𝐡𝐞 𝐊𝐡𝐞𝐥𝐧𝐚 𝐍𝐡𝐢 𝐀𝐚𝐭𝐚 𝐋𝐮𝐝𝐨 𝐁𝐚𝐬 𝐀𝐚𝐩𝐬𝐞 𝐏𝐲𝐚𝐫 𝐊𝐚𝐫𝐧𝐚 𝐀𝐚𝐭𝐚 𝐇𝐚𝐢 😘😘🤣`, threadID, messageID);
+   };
+
+
     if ((event.body.indexOf("Koi h") >= 0 )) {
      return api.sendMessage(`${name} मैं हूं ना बाबू बोलो 🥰👈`, threadID, messageID);
    };
