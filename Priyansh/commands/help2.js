@@ -60,7 +60,7 @@ module.exports. run = function({ api, event, args, getText }) {
     let msg = "";
     
     for (var [name, value] of (commands)) {
-      name += `❣️`;
+      name += `🕉️`;
       arrayInfo.push(name);
     }
 
@@ -73,7 +73,7 @@ module.exports. run = function({ api, event, args, getText }) {
     for (let item of returnArray) msg += `『 ${++i} 』${prefix}${item}\n`;
     
     
-    const siu = `╔━━❖❖💠❖❖━━╗\n 𝐒𝐇𝐀𝐀𝐍 𝐊𝐇𝐀𝐍 𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭\n╚━━❖❖💠❖❖━━╝`;
+    const siu = `╔━━❖❖💠❖❖━━╗\n 𝐊𝐑𝐈𝐒𝐇𝐍𝐀 𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭\n╚━━❖❖💠❖❖━━╝`;
     
  const text = `\nPage (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})`;
  
