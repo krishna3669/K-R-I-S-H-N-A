@@ -18,19 +18,19 @@ module.exports = {
     // Array of Imgur URLs
     handleEvent: async function({ api, event, client, Users, __GLOBAL }) {
         const gifs = [
-            "https://i.imgur.com/hKOVh8n.jpeg",
-            "https://i.imgur.com/O3ptBXe.jpeg",
-            "https://i.imgur.com/ChqXZ7m.jpeg",
-            "https://i.imgur.com/0aARWU3.jpeg",
-            "https://i.imgur.com/dxZNoUf.jpeg",
-            "https://i.imgur.com/Strqyj8.jpeg"
+            "https://i.imgur.com/YVMnqGd.jpeg",
+            "https://i.imgur.com/WxlERJS.jpeg",
+            "https://i.imgur.com/XgJZjNw.jpeg",
+            "https://i.imgur.com/XgJZjNw.jpeg",
+            "https://i.imgur.com/WfQJ9LF.jpeg",
+            "https://i.imgur.com/WfQJ9LF.jpeg"
         ];
 
-        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🅂🄷🄰🄰🄽𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
+        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄺🅁🄸🅂🄷🄽🄰𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
         const { threadID, messageID } = event;
         const lowerCaseMessage = event.body.toLowerCase();
 
-        if (lowerCaseMessage.startsWith("aryan")) {  
+        if (lowerCaseMessage.startsWith("krishna")) {  
             // Select a random image URL from the array
             const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
             const downloadPath = path.join(__dirname, 'Boss-Jpg-Images.jpg');
@@ -42,7 +42,7 @@ module.exports = {
                     attachment: fs.createReadStream(downloadPath)
                 };
                 api.sendMessage(msg, threadID, messageID);
-                api.setMessageReaction("😘", event.messageID, (err) => {}, true);
+                api.setMessageReaction("🫅", event.messageID, (err) => {}, true);
             });
         }
     },
