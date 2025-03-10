@@ -66,7 +66,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
       "MintBot cân spam nhưng không có gì đáng để bạn spam."
     ];
     var link = [
-      "https://i.imgur.com/xLKLrZt.jpeg",
+      "https://i.imgur.com/2OI9QmV.jpeg",
     ];
 
     var i = 1;
@@ -87,7 +87,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
                 }
             }
     var callback = () => 
-      api.sendMessage({ body: `𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎\n─────────────────\n» Prefix system: ${PREFIX}\n» Prefix box: ${prefix}\n» Modules: ${commands.size}\n» Ping: ${Date.now() - dateNow}ms\n» Total users: ${global.data.allUserID.length} \n» Total threads: ${global.data.allThreadID.length} ─────────────────\n╭───────────╮\n=𝐎𝐰𝐧𝐞𝐫 ➻     𝐌.𝐑 𝐒𝐇𝐀𝐀𝐍 \n╰───────────╯ ╭────────────╮\n𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐌.𝐑 𝐒𝐇𝐀𝐀𝐍 𝐁𝐎𝐓 \n╰────────────╯\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐥𝐢𝐧𝐤 😊 𝐌.𝐑 𝐒𝐇𝐀𝐀𝐍 :- ☞\n──────────────────\nhttps://www.facebook.com/profile.php?id=100016828397863&mibextid=ZbWKwL\n─────────────────`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
+      api.sendMessage({ body: `𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐊𝐑𝐈𝐒𝐇𝐍𝐀 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎\n─────────────────\n» Prefix system: ${PREFIX}\n» Prefix box: ${prefix}\n» Modules: ${commands.size}\n» Ping: ${Date.now() - dateNow}ms\n» Total users: ${global.data.allUserID.length} \n» Total threads: ${global.data.allThreadID.length} ─────────────────\n╭───────────╮\n=𝐎𝐰𝐧𝐞𝐫 ➻     𝐌𝐑. 𝐊𝐑𝐈𝐒𝐇𝐍𝐀 \n╰───────────╯ ╭────────────╮\n𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐌𝐑. 𝐊𝐑𝐈𝐒𝐇𝐍𝐀 𝐁𝐎𝐓 \n╰────────────╯\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 𝐥𝐢𝐧𝐤 😊 𝐌𝐑. 𝐊𝐑𝐈𝐒𝐇𝐍𝐀 :- ☞\n──────────────────\nhttps://www.facebook.com/profile.php?id=100062282613155&mibextid=ZbWKwL\n─────────────────`, attachment: fs.createReadStream(__dirname + "/cache/kensu.jpg"), }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/kensu.jpg"));
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/kensu.jpg")).on("close", () => callback()); 
   }
 };
