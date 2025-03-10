@@ -31,35 +31,7 @@ module.exports.run = async function({ api, event }) {
         if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
                 api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
                 const fs = require("fs");
-                return api.sendMessage("Assalamu Alaikum Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺Shaan🦋🌺 CONNECTED«
-
-Bot Made By SHAAN KHAN K☘️
-<------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
-
-APPROVAL ALLOW IN THIS GROUP!!!
-<------------------------------>
-
-USE HELP TO SEE COMMAND 
-\n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}video7 (video songs)\n${global.config.PREFIX}music (audio songs)\n${global.config.PREFIX}help2 (command list)\n${global.config.PREFIX}info 
-<<<<<------------------------------>>>>>
-AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
-
-OWNER: 𝐒𝐇𝐀𝐀𝐍
-
-♻️Facebook: 
-
-https://www.facebook.com/profile.php?id=100016828397863&mibextid=ZbWKwL
-
-Youtube Site : N/A
-
-☢️ INSTAGRAM: N/A
-
-https://www.instagram.com/shankhank345?igsh=MXVneXZ6bzR4bHhvcg==￼
-
-☣️Email: shankhank345@gmail.com
-
-⚠️Wp: +92 3368783346 `, attachment: fs.createReadStream(__dirname + "/cache/lv_7413647234832682256_20250105005634.mp4")} ,threadID));
+                return api.sendMessage("?🍒..𝗛𝗘𝗟𝗟𝗢 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘🙋 𝗞𝗥𝗜𝗦𝗛𝗡𝗔 𝗕𝗢𝗧 𝗜𝗦 𝗡𝗢𝗪 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗...⛓️💝🕊️🍓", event.threadID, () => api.sendMessage({body: `🍒💙•••𝕂ℝ𝕀𝕊ℍℕ𝔸 𝔹𝕆𝕋•••💞🌿\n✧═════════•❁❀❁•═════════✧\n💝𝗢𝘄𝗻𝗲𝗿÷ ☞︎ [ ꧁ 𝐊𝐑𝐈𝐒𝐇𝐍𝐀 ꧂ ] ☜︎ 😍😘\n✧═════════•❁❀❁•═════════✧\n🩷🖤🇧 🇴 🇹 =🙋= 🇪 🇳 🇹 🇦 🇷 🖤🩷\n✧═════════•❁❀❁•═════════✧\n🍒🕊️🍓..𝙻𝙾 𝙼𝙴 𝙰𝙰 𝙶𝙰𝚈𝙰 𝙰𝙰𝙿𝙺𝙰 𝙿𝚈𝙰𝚁𝙰 𝙺𝚁𝙸𝚂𝙷𝙽𝙰 𝙱𝙾𝚃 𝙰𝙱 𝙹𝙰𝙻𝙳𝙸 𝙹𝙰𝙻𝙳𝙸 𝚂𝙴 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙺𝙰𝚁𝙾 𝙼𝙴𝚁𝙰 𝙴𝚅𝙴𝚁𝚈𝙾𝙽𝙴..🍒🕊️🍓\n✧═════════•❁❀❁•═════════✧\n💖🙈💝..𝕆ℝ 𝕄𝔼ℝ𝕀 𝔹𝕆𝕊𝕊 𝕂ℝ𝕀𝕊ℍℕ𝔸  𝕂𝕆 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕊𝔼ℕ𝔻 𝕂𝔸ℝ 𝕂𝔸ℝ𝔻𝕆 𝕁𝔸𝕃𝔻𝕀 𝕁𝔸𝕃𝔻𝕀..🤭🙈💝\n✧═════════•❁❀❁•═════════✧\n💖🕊️💝🆈🅴÷🅼🅴🆁🅴÷🅱🅾🆂🆂÷🅺🆁🅸🆂🅷🅽🅰÷🅺🅸÷🅵🅰🅲🅴🅱🅾🅾🅺÷🅸🅳÷🅺🅸÷🅻🅸🅽🅺÷🅷🅴÷ <<<<[ https://www.facebook.com/profile.php?id=100062282613155&mibextid=ZbWKwL ]>>>>💖🙈💝\n✧═════════•❁❀❁•═════════✧\n💖🍓 𝐌𝐲 𝐏𝐑𝐄𝐅𝐈𝐗 ÷ ☞︎ [ ${global.config.PREFIX} ] ☜︎ 🍓💖\n✧═════════•❁❀❁•═════════✧\n🌸🐬_ᴀɢᴀʀ ᴋɪ ᴄʜɪᴊ ᴋɪ ʜᴇʟᴩ ᴄʜᴀʜɪʏᴇ ᴛᴏ ʏᴇ ʟᴏ ᴍᴇʀᴇ ʙᴏꜱꜱ ᴋᴇ ɴᴜᴍʙᴇʀ\n [+918094828237]`, attachment: fs.createReadStream(__dirname + "/cache/lv_7413647234832682256_20250105005634.mp4")} ,threadID));
         }
         else {
                 try {
@@ -80,7 +52,7 @@ https://www.instagram.com/shankhank345?igsh=MXVneXZ6bzR4bHhvcg==￼
                         }
                         memLength.sort((a, b) => a - b);
 
-                        (typeof threadData.customJoin == "undefined") ? msg = "𝐖𝐞𝐥𝐜𝐨𝐦𝐞   𝐓𝐨  𝐒𝐡𝐚𝐚𝐧  𝐊𝐡𝐚𝐧  𝐁𝐨𝐭  😇● ========================= ●\n● ======= 𝐇𝐄𝐋𝐋𝐎 𝐁𝐀𝐁𝐘 ======= ●\n● ========================= ●\n\n● ==== 🆆 🅴🅻🅻 🅲🅾🅼 🅴 ==== ●\n\n● ========= 𝐍𝐄𝐖 ========= ●\n\n● ==== 🇲‌ 🇪‌ 🇲‌ 🇧‌ 🇪‌ 🇷‌ ==== ●\n\n● ========================= ● [   {name} ]\n● ========================= ●\n● ====== 𝐌𝐘 𝐆𝐑𝐎𝐔𝐏 ===== ●\n\n{threadName}\n\n● = 🥀 𝐇𝐀𝐏𝐏𝐘 𝐄𝐍𝐉𝐎𝐘 🥀 = ●\n\n● == 🥀 𝐌𝐀𝐉𝐄 𝐊𝐀𝐑𝐎 🥀  == ●\n● ========================= ● 𝐎𝐑 𝐓𝐔𝐌 𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 𝐊𝐄  {soThanhVien} 𝐌𝐄𝐌𝐁𝐀𝐑 𝐇𝐎 𝐄𝐍𝐉𝐎𝐘 𝐊𝐀𝐑𝐎 𝐌𝐀𝐉𝐄 𝐋𝐎 [ . ] ● ========================= ●\n\n● ========================= ●\n● ======= 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 ====== ●\n\n☟  ========== ☟ ==========  ☟\n\n=𝐎𝐰𝐧𝐞𝐫 ➻    🌹 𝐒𝐡𝐚𝐚𝐧 𝐊𝐡𝐚𝐧 𝐊 🌹\n● ========================= ●" : msg = threadData.customJoin;
+                        (typeof threadData.customJoin == "undefined") ? msg = "💖💖😍☞𝗞𝗥𝗜𝗦𝗛𝗡𝗔 𝗕𝗢𝗧☜😍💖💖\n✧═════════•❁❀❁•═════════✧\n💖            🇼 🇪 🇱 🇨 🇴 🇲 🇪          💖\n✧═════════•❁❀❁•═════════✧\n💝🥀𝐎𝐖𝐍𝐄𝐑 :-  ☞💖👸 𝗞𝗥𝗜𝗦𝗛𝗡𝗔  👸💖☜\n✧═════════•❁❀❁•═════════✧\n💝🥀𝗕𝗢𝗧 𝗞𝗔 𝗡𝗔𝗠𝗘 :-☞💖👑 𝕂ℝ𝕀𝕊ℍℕ𝔸 𝔹𝕆𝕋 👑💖☜\n✧═════════•❁❀❁•═════════✧\n☞︎𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁 𝙺𝙾 𝙳𝙸𝙻 𝚂𝙴 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙺𝚁𝙸𝚂𝙷𝙽𝙰 𝙹𝙸 𝙾𝚁 𝚂𝙴 𝙼𝙰𝚂𝚃𝙸 𝙺𝙰𝚁𝙾 𝙰𝙱 𝙼𝙴𝚁𝙴 𝚂𝙰𝚃𝙷 𝙰𝙰𝙿𝙺𝙰 𝙿𝚈𝙰𝚁𝙰 𝙺𝚁𝙸𝚂𝙷𝙽𝙰😍🙈 ☜︎\n✧═════════•❁❀❁•═════════✧\n💖 𝗡𝗔𝗠𝗘÷ ☞︎💖[   {name} ]💖☜︎\n✧═════════•❁❀❁•═════════✧\n💖𝗚𝗥𝗢𝗨𝗣 𝗡𝗔𝗠𝗘÷ ☞︎[ {threadName} ]☜︎ \n✧═════════•❁❀❁•═════════✧\n𝐀𝐀𝐏 𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 𝐊𝐄  ☞︎ [ {soThanhVien}𝐓𝐇 ]☜︎ 𝐇𝐎 𝐓𝐎 𝐊𝐇𝐀𝐎 𝐏𝐈𝐘𝐎 𝐎𝐑 𝐌𝐄𝐑𝐄 𝐒𝐀𝐓𝐇 𝐌𝐀𝐒𝐓𝐈 𝐊𝐀𝐑𝐎 🙂🖐️ 𝐀𝐀𝐏𝐊𝐀 🥀☞︎ 𝐊𝐑𝐈𝐒𝐇𝐍𝐀 ☜︎\n✧═════════•❁❀❁•═════════✧\n𝗢𝗪𝗡𝗘𝗥 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗜𝗗 :- 👇 https://www.facebook.com/profile.php?id=100062282613155&mibextid=ZbWKwL\n✧═════════•❁❀❁•═════════✧\nकिसी भी तरह की हेल्प के लिए कांटेक्ट करे 👉 [+918094828237]●" : msg = threadData.customJoin;
                         msg = msg
                         .replace(/\{name}/g, nameArray.join(', '))
                         .replace(/\{type}/g, (memLength.length > 1) ?  'You' : 'Friend')
@@ -101,4 +73,4 @@ https://www.instagram.com/shankhank345?igsh=MXVneXZ6bzR4bHhvcg==￼
                         return api.sendMessage(formPush, threadID);
                 } catch (e) { return console.log(e) };
         }
-                    }
+}
