@@ -103,7 +103,7 @@ const first = numberOfOnePage * page - numberOfOnePage;
     const helpView = arrayInfo.slice(first, first + numberOfOnePage);
 
 
-    for (let cmds of helpView) msg += `「 ${++i} 」📂${global.config.PREFIX}${cmds}\n`;
+    for (let cmds of helpView) msg += `「 ${++i} 」🕉️${global.config.PREFIX}${cmds}\n`;
 
     const siu = `★𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗟𝗶𝘀𝘁★`;
 
