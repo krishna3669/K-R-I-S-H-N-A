@@ -52,7 +52,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
 		const moduleName = this.config.name;
 
     var background = [
-  "https://i.imgur.com/elU2Wnm.jpeg",
+  "https://i.imgur.com/tVCXB0q.jpeg",
   "https://i.imgur.com/JBYox72.jpeg",
   "https://i.imgur.com/SRRuSRk.jpeg",   "https://i.imgur.com/qhx5HLz.jpeg",
   "https://i.imgur.com/kbB4AfZ.jpeg",
@@ -105,7 +105,7 @@ module.exports.languages = {
 		"on": "on",
 		"off": "off",
 		"successText": "success notification rankup!",
-		"levelup": "◈━━━━━━━━━━━━━━━━💚✨\n\n{name}, ◈━━━━━━━━━━━━━━━━💚✨\n\nyour keyboard has reached level {level}◈━━━━━━━━━━━━━━━━💚✨\n\𝐌𝐀𝐃𝐄 𝐁𝐘 𝐊𝐑𝐈𝐒𝐇𝐍𝐀\n◈━━━━━━━━━━━━━━━━💚✨",
+		"levelup": "✧═════════•❁❀❁•═════════✧\n🌸🐬 [ {name} ] 🌸🐬\n✧═════════•❁❀❁•═════════✧\n🐬🌸__ɣɘ ɭ❍ 𝗔𝗔p᩶ƙ𝗔 ɭɘv̸ɘɭ [ {level} ] 😻🥰 ƙɧ𝘂𝐬ɧ r᩶ɘɧɘ ɧ❍ ɱɘr᩶ɘ 𝐬𝗔𝗧ɧ 😁\n✧═════════•❁❀❁•═════════✧\n🌸 𝐎𝐖𝐍𝐄𝐑 :- 𝐊𝐑𝐈𝐒𝐇𝐍𝐀\n✧═════════•❁❀❁•═════════✧\n🌸🐬🐧✨",
 	}
 }
 
