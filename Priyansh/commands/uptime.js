@@ -13,7 +13,7 @@ module.exports.config = {
   name: "upt",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "KRISHNA",
+  credits: "SHAAN KHAN",
   description: "Koii Prefix nhi",
   commandCategory: "Hukum Ke Bagher",
   usages: "Online Time Timing Dekhye",
@@ -54,29 +54,13 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
       timeZone: 'Asia/kolkata' 
     });
 
-    const responseMessage = `♡   ∩_∩
- （„• ֊ •„)♡
-╭─∪∪────────────⟡
-│ 𝗨𝗣𝗧𝗜𝗠𝗘 𝗜𝗡𝗙𝗢 𝗔𝗡𝗗 𝗢𝗪𝗡𝗘𝗥 𝗞𝗥𝗜𝗦𝗛𝗡𝗔 
-├───────────────⟡
-│ ⏰ 𝗥𝗨𝗡𝗧𝗜𝗠𝗘
-│  ${uptimeFormatted}
-├───────────────⟡
-│ 👑 𝗦𝗬𝗦𝗧𝗘𝗠 𝗜𝗡𝗙𝗢
-│𝙾𝚂: ${os.type()} ${os.arch()}
-│𝙻𝙰𝙽𝙶 𝚅𝙴𝚁: ${process.version}
-│𝙲𝙿𝚄 𝙼𝙾𝙳𝙴𝙻: ${os.cpus()[0].model}
-│𝚂𝚃𝙾𝚁𝙰𝙶𝙴: ${usedMemoryGB.toFixed(2)} GB / ${totalMemoryGB.toFixed(2)} GB
-│𝙲𝙿𝚄 𝚄𝚂𝙰𝙶𝙴: ${cpuUsage.toFixed(1)}%
-│𝚁𝙰𝙼 𝚄𝚂𝙶𝙴: ${process.memoryUsage().heapUsed / 1024 / 1024} MB;
-├───────────────⟡
-│ ✅ 𝗢𝗧𝗛𝗘𝗥 𝗜𝗡𝗙𝗢
-│𝙳𝙰𝚃𝙴: ${date}
-│𝚃𝙸𝙼𝙴: ${time}
-│𝙿𝙸𝙽𝙶: ${ping}𝚖𝚜
-│𝚂𝚃𝙰𝚃𝚄𝚂: ${pingStatus}
-╰───────────────⟡
-`;
+    const responseMessage = `❁ ━━━[ 𝗨𝗣𝗧𝗜𝗠𝗘 ]━━━ ❁\n\n` +
+                            `✰ 𝗥𝗨𝗡 ➪ ${gio}ʜ ${phut}ᴍ ${giay}ꜱ\n` +
+                            `✰ 𝗧𝗜𝗠𝗘 ➪ ${formattedTime}\n` +
+                            `✰ 𝗗𝗔𝗧𝗘 ➪ ${formattedDate}\n` +
+                            `✰ 𝗗𝗔𝗬 ➪ ${formattedDay}\n` +
+                            `━━━━━━━━━━━━━━━\n` +
+                            `𝕄𝔸𝔻𝔼 𝔹𝕐 🌸🐬🌸 [𝗞𝗥𝗜𝗦𝗛𝗡𝗔]`;
 
     api.sendMessage(responseMessage, event.threadID, event.messageID);
   }
