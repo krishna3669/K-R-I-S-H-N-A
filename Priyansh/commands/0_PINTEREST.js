@@ -104,7 +104,7 @@ module.exports.run = async function ({ api, event, args }) {
         const attachments = imagePaths.map(path => fs.createReadStream(path));
         
         api.sendMessage({
-            body: `ये लो अपनी पसंद का: ${keyword} वाला फोटो 😇`,
+            body: `औनर 💖 कृष्णा 🥺😘ये लो अपनी पसंद का: ${keyword} वाला फोटो 😇`,
             attachment: attachments
         }, threadID, () => {
             imagePaths.forEach(path => fs.unlinkSync(path));
