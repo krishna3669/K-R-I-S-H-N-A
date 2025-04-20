@@ -15,10 +15,10 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	if (event.body.indexOf("GM")==0 || event.body.indexOf("Gm")==0 || event.body.indexOf("Good morning")==0 || event.body.indexOf("GOOD MORNING")==0) {
 		var msg = {
 				body: "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐊𝐑𝐈𝐒𝐇𝐍𝐀💐 \n_______________________\n\n⎯꯭֯🌸⃪ ꯭⃛֯G❍❍𝐃 ɱ❍ɽηIIηG\n_______________________",
-				attachment: fs.createReadStream(__dirname + `/noprefix/received_1083155713406602.mp4`)
+				attachment: fs.createReadStream(__dirname + `/noprefix/Messenger_creation_918794153604659.webp`)
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😘", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🕉️", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
