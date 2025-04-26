@@ -34,17 +34,17 @@ const shayariList = [
   "𝐎𝐖𝐍𝐄𝐑 :- ꧁❀𓃮 𓆩𝐊𝐑𝐈𝐒𝐇𝐍𝐀𓆪 𓃮❀꧂",
 ];
 const imgLinks = [
-"https://i.imgur.com/ChxSv7l.jpeg",
-"https://i.imgur.com/mYnCrnm.jpeg",
-"https://i.imgur.com/g4bKuhi.jpeg",
-"https://i.imgur.com/Lh3wEm0.jpeg",
-"https://i.imgur.com/fgup0OB.jpeg",
-"https://i.imgur.com/OOQM0ES.jpeg",
-"https://i.imgur.com/pP6Cty1.jpeg",
-"https://i.imgur.com/FaYNWcT.jpeg",
-"https://i.imgur.com/5e6jRpp.jpeg",
-"https://i.imgur.com/8PUr0C5.jpeg",
-"https://i.imgur.com/8tvdw2M.jpeg",
+"https://i.ibb.co/LL5km9t/0b638300114b826326f49f762bbb67a1.jpg",
+"https://i.ibb.co/pjGRxkY8/02f88844fd61d385481965a7dc08b36c.jpg",
+"https://i.ibb.co/rRXWF9q1/da11e7b38ae41efc3fa976af068f3770.jpg",
+"https://i.ibb.co/wh6bXpvx/d6e41d33ac242a8fd45b3ca3dfe87bd7.jpg",
+"https://i.ibb.co/0j38cYwg/a9fa5268921182cafb0a7b72a8d7644a.jpg",
+"https://i.ibb.co/1YKknTYH/c090179a35ba8df4eabfdbad63035ec8.jpg",
+"https://i.ibb.co/hJmmBK8D/5b4aedd51f75f3f8e72d5f137ce0b598.jpg",
+"https://i.ibb.co/5gQKYb2t/021c25d9f60ede134df34c83a03adad9.jpg",
+"https://i.ibb.co/JwKczWh4/41cf90a82b7b310485c0d378bdbeee80.jpg",
+"https://i.ibb.co/Lz7Xjg1s/89de026b23bec183a54b77e0e7f0b245.jpg",
+"https://i.ibb.co/zW22nSBb/1d149d9ed72ce4f5dde83db1ed6f4367.jpg",
 ];
 
 let lastSentHour = null;
