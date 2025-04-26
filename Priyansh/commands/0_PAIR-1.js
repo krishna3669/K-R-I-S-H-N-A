@@ -2,8 +2,8 @@ module.exports.config = {
   name: "pair",
   version: "1.0.0", 
   hasPermssion: 0,
-  credits: "AADI BABU",
-  description: "THIS BOT IS MR AADI SHARMA",
+  credits: "KRISHNA",
+  description: "THIS BOT IS MR KRISHNA",
   commandCategory: "COUPLE LOVE PAIRING", 
   usages: "pair", 
   cooldowns: 15
@@ -39,6 +39,10 @@ module.exports.run = async function({ api, event,Threads, Users }) {
               imglove.push(fs.createReadStream(__dirname + "/cache/giflove.png"));
               imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
 
-        var msg = {body: `𝐎𝐰𝐧𝐞𝐫 ➻   💐𝐌𝐑. 𝐊𝐑𝐈𝐒𝐇𝐍𝐀💐\n\n[•||•●•||•┼┼──🌸,,💟..𝐀𝐧𝐤𝐡𝐨 𝐦𝐞 𝐛𝐚𝐬𝐚𝐥𝐮 𝐭𝐮𝐣𝐡𝐤𝐨. 💟 ...💗 𝐒𝐡𝐞𝐞𝐬𝐡𝐞 𝐦𝐞 𝐭𝐞𝐫𝐚𝐝𝐞𝐞𝐝𝐚𝐫 𝐡𝐨...💗 🥰•||•🐬•||•]]\n\n✦ ━━━━━━━ 💝 ━━━━━━━ ✦\n\n[•||•●•||•┼┼──🌸🌿 𝐀𝐤 𝐰𝐚𝐪𝐭 𝐞𝐬𝐚 𝐚𝐲𝐞 𝐣𝐢𝐧𝐝𝐠𝐢 𝐦𝐞 𝐤𝐢...💚 ,💜.. 𝐭𝐮𝐣𝐡𝐤𝐨 𝐯 𝐡𝐮𝐦𝐬𝐞 𝐩𝐲𝐚𝐫 𝐡𝐨 ..💜 ♥️✨  •||•🌸•||• ]]\n\n✦ ━━━━━━━ 💝 ━━━━━━━ ✦\n\n➻ 𝐍𝗔ɱɘ ✦  ${namee} \n\n➻ 𝐍𝗔ɱɘ ✦  ${name} \n\n✦ ━━━━━━━ 💝 ━━━━━━━ ✦\n\n🌸🍁The odds are: 〘${tle}〙\n`+namee+" "+"♥️"+" "+name, mentions: arraytag, attachment: imglove}
+        var msg = {body: `🌸===『*★𝗖𝗿𝗲𝗱𝗶𝘁:- 𝐊𝐑𝐈𝐒𝐇𝐍𝐀_____________________________________________________________________‎‎[•||•●•||•┼┼──🌸,,💟..𝐀𝐧𝐤𝐡𝐨 𝐦𝐞 𝐛𝐚𝐬𝐚𝐥𝐮 𝐭𝐮𝐣𝐡𝐤𝐨. 💟 ...💗 𝐒𝐡𝐞𝐞𝐬𝐡𝐞 𝐦𝐞 𝐭𝐞𝐫𝐚 𝐝𝐞𝐞𝐝𝐚𝐫 𝐡𝐨...💗 🥰•||•🐬•||•]]
+🌹✦━━━━━🌹━━🌹━━━━━✦🌹
+\n[•||•●•||•┼┼──🌸🌿 𝐀𝐤 𝐰𝐚𝐪𝐭 𝐞𝐬𝐚 𝐚𝐲𝐞 𝐣𝐢𝐧𝐝𝐠𝐢 𝐦𝐞 𝐤𝐢...💚 ,💜.. 𝐭𝐮𝐣𝐡𝐤𝐨 𝐯 𝐡𝐮𝐦𝐬𝐞 𝐩𝐲𝐚𝐫 𝐡𝐨 ..💜 ♥️✨ 𝗞𝗥𝗜𝗦𝗛𝗡𝗔 •||•🌸•||• ]]
+🌹✦━━━━━🌹━━🌹━━━━━✦🌹
+\nAAP DONON KA PYAR👉 ${tle} HAIN 🤐👈\n`+namee+" "+"♥️"+" "+name, mentions: arraytag, attachment: imglove}
         return api.sendMessage(msg, event.threadID, event.messageID)
 }
