@@ -54,13 +54,13 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
       timeZone: 'Asia/kolkata' 
     });
 
-    const responseMessage = `❁ ━━━[ 𝗨𝗣𝗧𝗜𝗠𝗘 ]━━━ ❁\n\n` +
-                            `✰ 𝗥𝗨𝗡 ➪ ${gio}ʜ ${phut}ᴍ ${giay}ꜱ\n` +
-                            `✰ 𝗧𝗜𝗠𝗘 ➪ ${formattedTime}\n` +
-                            `✰ 𝗗𝗔𝗧𝗘 ➪ ${formattedDate}\n` +
-                            `✰ 𝗗𝗔𝗬 ➪ ${formattedDay}\n` +
-                            `━━━━━━━━━━━━━━━\n` +
-                            `𝕄𝔸𝔻𝔼 𝔹𝕐 🌸🐬🌸 [𝗞𝗥𝗜𝗦𝗛𝗡𝗔]`;
+    const responseMessage = `❁ ━━━[🌸💐 𝐔𝐏𝐓𝐈𝐌𝐄 💐🌸]━━━ ❁\n\n` +
+                            `❀ 𝐁𝐎𝐓 𝐑𝐔𝐍 ⇶ ${gio}ʜ ${phut}ᴍ ${giay}ꜱ\n` + 🐬🌸
+                            `❀ 𝐓𝐈𝐌𝐄 ⇶ ${formattedTime}\n` + 🐬🌸
+                            `❀ 𝐃𝐀𝐓𝐄 ⇶ ${formattedDate}\n` + 🐬🌸
+                            `❀ 𝐃𝐀𝐘 ⇶ ${formattedDay}\n\n` + 🐬🌸
+                            `❁ ━━━━━━━━━━━━━━━ ❁\n` +
+                            `𝐎𝐖𝐍𝐄𝐑 :- 💖〚𝗞𝗥𝗜𝗦𝗛𝗡𝗔〛💖`;
 
     api.sendMessage(responseMessage, event.threadID, event.messageID);
   }
