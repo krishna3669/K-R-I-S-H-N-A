@@ -18,15 +18,11 @@ module.exports = {
     // Array of Imgur URLs
     handleEvent: async function({ api, event, client, Users, __GLOBAL }) {
         const gifs = [
-            "https://i.imgur.com/YVMnqGd.jpeg",
-            "https://i.imgur.com/WxlERJS.jpeg",
-            "https://i.imgur.com/XgJZjNw.jpeg",
-            "https://i.imgur.com/XgJZjNw.jpeg",
-            "https://i.imgur.com/WfQJ9LF.jpeg",
-            "https://i.imgur.com/WfQJ9LF.jpeg"
+            "https://www.imghippo.com/i/nSqD1834jiQ.jpg",
+            "https://www.imghippo.com/i/tilv2162Pg.jpg"
         ];
 
-        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄺🅁🄸🅂🄷🄽🄰𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
+        const message = "•💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== 𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄺🅁🄸🅂🄷🄽🄰𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 👉[💖 https://www.facebook.com/profile.php?id=100062282613155&mibextid=ZbWKwL 💖]";
         const { threadID, messageID } = event;
         const lowerCaseMessage = event.body.toLowerCase();
 
