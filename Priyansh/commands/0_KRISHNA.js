@@ -19,7 +19,7 @@ react.includes("BOSS") ||
 react.includes("Ravi") ||     
 react.includes("RAVI")) {
     var msg = {
-        body: `${name} 𝑻𝑼𝑴 𝑵𝑬 𝑩𝑯𝑼𝑳𝑨𝒀𝑨 𝑶𝑼𝑹 𝑯𝑼𝑴 𝑪𝑯𝑨𝑳𝑬 𝑨𝑨𝒀𝑬💞✿`,attachment: fs.createReadStream(__dirname + `/noprefix//IMG_20250308_214011.jpg`)
+        body: `${name} ●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== 𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄺🅁🄸🅂🄷🄽🄰𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 👉[💖 https://www.facebook.com/profile.php?id=100062282613155&mibextid=ZbWKwL 💖]`,attachment: fs.createReadStream(__dirname + `/noprefix//IMG_20250428_002931.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💋", event.messageID, (err) => {}, true)
