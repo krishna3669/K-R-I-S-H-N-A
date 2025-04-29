@@ -66,13 +66,13 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
       "MintBot cân spam nhưng không có gì đáng để bạn spam."
     ];
     var link = [
-      "https://i.imgur.com/IlIguQf.jpeg",
+      "https://i.ibb.co/svF3zJ03/IMG-20250428-002931.jpg",
     ];
 
     var i = 1;
     var msg = [];
     const moment = require("moment-timezone");
-    const date = moment.tz("Asia/Karachi").format("HH:MM:ss L");
+    const date = moment.tz("Asia/kolkata").format("HH:MM:ss L");
     for (const idAdmin of listAdmin) {
       if (parseInt(idAdmin)) {
         const name = await Users.getNameUser(idAdmin);
